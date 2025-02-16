@@ -15,10 +15,10 @@
             text-align: center;
         }
 
-        /* Info Icon */
-        .info-icon {
-            width: 50px; /* Adjust size */
-            height: 50px;
+        /* Animated Logo */
+        .logo {
+            width: 150px; /* Adjust size */
+            height: 150px;
             margin-bottom: 10px;
         }
 
@@ -78,8 +78,14 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Info Icon" class="info-icon">
+        <!-- Animated Logo -->
+        <video class="logo" autoplay loop muted playsinline>
+            <source src="telegram_icon.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
         <div class="title">Contact me on Telegram</div>
+
         <a href="https://t.me/Unknowmesseges" target="_blank" class="button">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24">
                 <path d="m18 0 8 12 10-8-4 20H4L0 4l10 8 8-12z"></path>
